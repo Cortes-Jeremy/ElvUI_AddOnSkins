@@ -10,6 +10,7 @@ local GetAddOnInfo = GetAddOnInfo
 local IsAddOnLoadOnDemand = IsAddOnLoadOnDemand
 
 local addonList = {
+	"AAVBlackrock",
 	"Omen",
 	"Recount",
 	"SexyCooldown",
