@@ -1,5 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="AAVBlackrock.lua"/>
+	<Script file="PreformAVEnabler.lua"/>
 	<Script file="sexyCooldown.lua"/>
 	<Script file="recount.lua"/>
 	<Script file="omen.lua"/>
