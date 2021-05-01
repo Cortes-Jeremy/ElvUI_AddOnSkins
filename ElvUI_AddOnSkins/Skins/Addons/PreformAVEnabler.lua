@@ -56,8 +56,9 @@ S:AddCallbackForAddon("PreformAVEnabler", "PreformAVEnabler", function()
         PreformAVEnablerThresholdSliderMaxValue:SetPoint('TOPLEFT', PreformAVEnablerThresholdSlider, 'TOPRIGHT', 3, 0)
 
         PreformAVEnablerMembersScrollFrameScrollBar:ClearAllPoints()
-        PreformAVEnablerMembersScrollFrameScrollBar:SetPoint('LEFT', PreformAVEnablerMembersScrollFrame, 'RIGHT', 1, 0)
-        PreformAVEnablerMembersScrollFrameScrollBar:SetSize(13, PreformAVEnablerMembersScrollFrame:GetHeight() - 19*2)
+        PreformAVEnablerMembersScrollFrameScrollBar:SetPoint('TOPLEFT', PreformAVEnablerMembersScrollFrame, 'TOPRIGHT', 1, -19)
+        PreformAVEnablerMembersScrollFrameScrollBar:SetPoint('BOTTOMLEFT', PreformAVEnablerMembersScrollFrame, 'BOTTOMRIGHT', 1, 19)
+        --PreformAVEnablerMembersScrollFrameScrollBar:SetSize(13, PreformAVEnablerMembersScrollFrame:GetHeight() - 19*2)
 
         S:HandleScrollBar(PreformAVEnablerMembersScrollFrameScrollBar)
         S:HandleSliderFrame(PreformAVEnablerThresholdSlider)
@@ -102,7 +103,7 @@ S:AddCallbackForAddon("PreformAVEnabler", "PreformAVEnabler", function()
             frame:SetTemplate("Transparent")
             frame:SetBackdropColor(0,0,0,0)
             frame:SetBackdropBorderColor(0,0,0,0)
-            frame:SetSize(1028, 21)
+            --frame:SetSize(1028, 21)
         end
         --
         for i=1, 41 do
