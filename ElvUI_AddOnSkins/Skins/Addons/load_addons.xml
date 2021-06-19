@@ -82,6 +82,7 @@
 	<Script file="swatter.lua"/>
 	<Script file="beanCounter.lua"/>
 	<Script file="informant.lua"/>
+	<Script file="SlideBar.lua"/>
 	<Script file="auctioneerSuite.lua"/>
 	<Script file="altoholic.lua"/>
 	<Script file="loseControl.lua"/>
@@ -97,4 +98,5 @@
 	<Script file="ElvinCDs.lua"/>
 	<Script file="oRA3.lua"/>
 	<Script file="RCLootCouncil.lua"/>
+	<Script file="QDKP2_GUI.lua"/>
 </Ui>
